@@ -1,0 +1,541 @@
+/* Created by Artisteer v4.3.0.60858 */
+
+.responsive body
+{
+   min-width: 240px;
+}
+  
+.responsive img 
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}  
+  
+.responsive .css-content-layout img,
+.responsive .css-content-layout video
+{
+   max-width: 100%;
+   height: auto !important;
+}
+
+.responsive.responsive-phone .css-content-layout img 
+{
+   margin: 1%;
+}
+
+.responsive.responsive-phone .css-collage,
+.responsive.responsive-tablet .css-collage {
+   margin: 0 !important;
+}
+
+.responsive .css-content-layout .css-sidebar0, 
+.responsive .css-content-layout .css-sidebar1, 
+.responsive .css-content-layout .css-sidebar2 
+{
+   width: auto !important;
+}
+    
+.responsive .css-content-layout, 
+.responsive .css-content-layout-row, 
+.responsive .css-layout-cell 
+{
+   display: block;
+}
+
+.responsive .css-content-layout, 
+.responsive .css-content-layout-row
+{
+   padding: 0;
+}
+    
+.responsive .image-caption-wrapper 
+{
+   width: auto;
+}
+
+.responsive.responsive-tablet .css-vmenublock,
+.responsive.responsive-tablet .css-block
+{
+   margin-left: 1%;
+   margin-right: 1%;
+   width: 48%;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.responsive .css-responsive-embed 
+{
+   height: 0;
+   padding-bottom: 56.25%;
+   /* 16:9 */
+    position: relative;
+}
+
+.responsive .css-responsive-embed iframe,
+.responsive .css-responsive-embed object,
+.responsive .css-responsive-embed embed
+{
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+/* dynamic width nav */
+.responsive nav.css-nav,
+.responsive .css-nav-inner
+{
+   width: auto !important;
+   position: relative !important;
+   top: auto !important;
+   left: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   margin-top: 0;
+   margin-bottom: 0;
+   min-width: 0;
+   text-align: left !important;
+}
+
+.responsive nav.css-nav
+{
+   min-width: 1%;
+   margin-top: 1%;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+}
+
+.responsive .css-nav 
+{
+   padding-left: 0;
+   padding-right: 0;
+}
+
+/* full width hmenu, instead of inline-block */
+.responsive .css-nav ul.css-hmenu 
+{
+   float: none;
+   text-align: center;
+   display: none;
+}
+
+/* elements on different lines */
+.responsive .css-nav ul.css-hmenu li,
+.responsive .css-hmenu-extra1,
+.responsive .css-hmenu-extra2
+{
+   float: none;
+}
+  
+/* horizontal margins */
+.responsive .css-nav ul.css-hmenu>li:first-child, 
+.responsive .css-nav ul.css-hmenu>li:last-child, 
+.responsive .css-nav ul.css-hmenu>li
+{
+   margin-left: 0;
+   margin-right: 0;
+}
+ 
+/* separator */ 
+.responsive .css-nav ul.css-hmenu>li:before
+{
+   display: none;
+}
+
+/* vertical distance between items */
+.responsive .css-nav ul.css-hmenu a
+{
+   margin-top: 1px !important;
+   margin-bottom: 1px !important;
+   height: auto;
+   white-space: normal;
+}
+
+.responsive .css-nav ul.css-hmenu>li:first-child>a
+{
+   margin-top: 0 !important;
+}
+
+.responsive .css-nav ul.css-hmenu>li:last-child>a
+{
+   margin-bottom: 0 !important;
+}
+
+/* fixes for extended menu */
+.responsive .css-nav .ext, 
+.responsive .css-nav ul.css-hmenu>li>ul, 
+.responsive .css-nav ul.css-hmenu>li>ul>li,
+.responsive .css-nav ul.css-hmenu>li>ul>li a
+{
+   width: auto !important;
+}
+
+/* submenu position on hover */
+.responsive .css-nav ul.css-hmenu ul
+{
+   left: auto !important;
+   right: auto !important;
+   top: auto !important;
+   bottom: auto !important;
+   display: none !important;
+   position: relative !important;
+   visibility: visible !important;
+}
+
+.responsive .css-nav ul.css-hmenu li.active>ul
+{
+   display: block !important;
+}
+.responsive .css-nav ul.css-hmenu ul li.active>a
+{
+   font-weight: bold;
+}
+
+.css-nav .css-menu-btn 
+{
+   border: 1px solid #404040;
+   border-radius: 3px;
+   box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+   display: none;
+   -svg-background: linear-gradient(to bottom, #707070 0, #000 100%);
+   background: -ms-linear-gradient(top, #707070 0, #000 100%);
+   background: -moz-linear-gradient(top, #707070 0, #000 100%);
+   background: -o-linear-gradient(top, #707070 0, #000 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #707070), color-stop(1, #000));
+   background: -webkit-linear-gradient(top, #707070 0, #000 100%);
+   background: linear-gradient(to bottom, #707070 0, #000 100%);
+   margin: 3px;
+   outline: none;
+   padding: 5px;
+   position: relative;
+   vertical-align: bottom;
+   width: 20px;
+}
+
+.css-nav .css-menu-btn span 
+{
+   background: #E0E0E0;
+   border-radius: 2px;
+   display: block;
+   height: 3px;
+   margin: 3px 1px;
+   position: relative;
+   -moz-transition: background .2s;
+   -o-transition: background .2s;
+   -webkit-transition: background .2s;
+   transition: background .2s;
+}
+
+.css-nav .css-menu-btn:hover span
+{
+   background: #f3f3f3;
+}
+
+.responsive .css-nav .css-menu-btn 
+{
+   display: inline-block;
+}
+
+.responsive .css-nav .css-hmenu.visible 
+{
+   display: block;
+}
+
+.responsive .css-nav ul.css-hmenu>li>ul>li:first-child:after 
+{
+   display: none;
+}
+.responsive .css-nav ul.css-hmenu ul a
+{
+   padding-left: 4% !important;
+}
+.responsive .css-nav ul.css-hmenu ul ul a
+{
+   padding-left: 6% !important;
+}
+.responsive .css-nav ul.css-hmenu ul ul ul a
+{
+   padding-left: 8% !important;
+}
+.responsive .css-nav ul.css-hmenu ul ul ul ul a
+{
+   padding-left: 10% !important;
+}
+.responsive .css-nav ul.css-hmenu ul ul ul ul ul a
+{
+   padding-left: 12% !important;
+}
+  
+.responsive .css-nav ul.css-hmenu>li>ul
+{
+   padding: 5px;
+}
+  
+.responsive .css-nav ul.css-hmenu>li>ul:before
+{
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+.responsive .css-header 
+{
+   width: auto !important;
+   max-width: none !important;
+   min-height: 100px !important;
+   min-width: 0 !important;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+   text-align: center;
+}
+
+.default-responsive .css-header 
+{
+   height: auto;
+}
+
+.default-responsive .css-header *
+{
+   position: relative;
+   text-align: center;
+   -webkit-transform: none !important;
+   -moz-transform: none !important;
+   -o-transform: none !important;
+   -ms-transform: none !important;
+   transform: none !important;
+}
+
+.default-responsive .css-header .css-headline, 
+.default-responsive .css-header .css-slogan 
+{
+   display: block !important;
+   top: 0 !important;
+   left: 0 !important;
+   margin: 2% !important;
+   text-align: center !important;
+}
+    
+.default-responsive .css-header .css-headline a, 
+.default-responsive .css-header .css-slogan 
+{
+   white-space: normal !important;
+}
+
+.default-responsive .css-header .css-logo
+{
+   display: inline-block;
+   margin: auto !important;
+   left: auto;
+   top: auto !important;
+   width: auto;
+   height: auto;
+}
+
+.responsive .css-header .css-slidenavigator 
+{
+   position: absolute;
+}
+
+.default-responsive .css-header .css-positioncontrol 
+{
+   display: block !important;
+   position: relative !important;
+   top: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   left: auto !important;
+   margin: 2% auto !important;
+   width: auto !important;
+   height: auto !important;
+}
+
+.responsive .css-header #css-flash-area
+{
+   display: none;
+}
+
+/* Search and other elements in header element directly */
+.default-responsive .css-header>.css-textblock
+{
+   position: relative !important;
+   display: block !important;
+   margin: 1% auto !important;
+   width: 75% !important;
+   top: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   left: auto !important;
+}
+
+.default-responsive .css-header .css-textblock 
+{
+   position: relative !important;
+   display: block !important;
+   margin: auto !important;
+   left: 0 !important;
+   right: 0 !important;
+   top: auto !important;
+   height: auto !important;
+   width: auto;
+   background-image: none;
+}
+
+/* '.css-header *' used noram align, but for '.css-textblock *' we must force align because of preview */
+.responsive .css-header .css-textblock *
+{
+   text-align: center !important;
+}
+
+.default-responsive .css-header .css-shapes > .css-textblock,
+.default-responsive .css-header .css-slide-item > .css-textblock
+{
+   display: none !important;
+}
+
+.default-responsive .css-header .css-shapes > .css-textblock *
+{
+   text-align: center !important;
+   width: auto !important;
+   height: auto !important;
+   display: block;
+}
+
+.default-responsive .css-header .css-slider .css-textblock *
+{
+   text-align: center !important;
+   width: auto !important;
+   height: auto !important;
+   display: block;
+}
+
+/* For icons like facebook, rss, etc. */
+.responsive .css-header>.css-textblock>div 
+{
+   width: 100%;
+}
+.responsive .css-sheet
+{
+   width: auto !important;
+   min-width: 240px !important;
+   max-width: none !important;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+}
+
+#css-resp {
+   display: none;
+}
+
+@media all and (max-width: 999px)
+{
+    #css-resp, #css-resp-t { display: block; }
+    #css-resp-m { display: none; }
+}
+
+@media all and (max-width: 480px)
+{
+    #css-resp, #css-resp-m { display: block; }
+    #css-resp-t { display: none; }
+}
+
+#css-resp-desktop {
+   display: none;
+}
+#css-resp-tablet-landscape {
+   display: none;
+}
+#css-resp-tablet-portrait {
+   display: none;
+}
+#css-resp-phone-landscape {
+   display: none;
+}
+#css-resp-phone-portrait {
+   display: none;
+}
+
+@media (min-width: 1200px)
+{
+    #css-resp-desktop { display: block; }
+}
+
+@media (min-width: 980px) and (max-width: 1199px)
+{
+    #css-resp-tablet-landscape { display: block; }
+}
+
+@media (min-width: 768px) and (max-width: 979px)
+{
+    #css-resp-tablet-portrait { display: block; }
+}
+
+@media (min-width: 480px) and (max-width: 767px)
+{
+    #css-resp-phone-landscape { display: block; }
+}
+
+@media (max-width: 479px)
+{
+    #css-resp-phone-portrait { display: block; }
+}
+.responsive .css-content-layout, 
+.responsive .css-content-layout-row, 
+.responsive .css-layout-cell 
+{
+   display: block;
+}
+
+.responsive .css-layout-cell 
+{
+   width: auto !important;
+   height: auto !important;
+}
+
+.responsive .css-content-layout:after, 
+.responsive .css-content-layout-row:after, 
+.responsive .css-layout-cell:after 
+{
+   content: ".";
+   display: block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+}
+
+.responsive .responsive-tablet-layout-cell,
+.responsive.responsive-tablet .css-footer .css-content-layout .css-layout-cell 
+{
+   margin: 1%;
+   width: 98% !important;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.responsive .responsive-layout-row-2 .responsive-tablet-layout-cell,
+.responsive.responsive-tablet .css-footer .css-content-layout .responsive-layout-row-2 .css-layout-cell
+{
+   width: 48% !important;
+}
+
+.responsive .responsive-layout-row-3 .responsive-tablet-layout-cell,
+.responsive.responsive-tablet .css-footer .css-content-layout .responsive-layout-row-3 .css-layout-cell
+{
+   width: 31% !important;
+}
+.responsive .css-post
+{
+   border-radius: 0;
+}
+
+.responsive .css-footer-inner
+{
+   min-width: 0;
+}
+
